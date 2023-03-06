@@ -13,8 +13,7 @@ let arr = [
   },
 ];
 
-let result = arr.find((item, i, arr) => {
-  return item.age === 22;
+let result = arr.filter((item, i, arr) => {
+  return item.age >= 22;
 });
-
 console.log(result);
