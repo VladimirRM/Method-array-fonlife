@@ -14,3 +14,14 @@
 // let allArr = user.slice()
 
 // console.log(allArr);
+
+//////////indexOf select item//////////////////
+
+// let arr = ["Ivan ", "Mykola", "Yana"];
+
+// console.log(arr.indexOf("Mykola"));
+
+
+// console.log(arr.indexOf('Vasya'))
+
+// //////////find////////////////////////////////

@@ -1,8 +1,8 @@
-let user = ["Ivan ", "Mykola", "Yana"];
+let arr = ["Ivan ", "Mykola", "Yana"];
 
 
 
 
-let allArr = user.slice()
 
-console.log(allArr);
+
+console.log(arr.indexOf('Vasya'));
