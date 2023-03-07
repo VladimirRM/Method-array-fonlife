@@ -67,3 +67,31 @@
 //     return item.age >= 22;
 //   });
 //   console.log(result);
+
+
+///////////split/////////////////
+
+
+// let srt = "Ivan,Mykola,Stepan";
+
+// let result = srt.split(",");
+
+// console.log(result);
+
+//////////////join////////////////
+
+
+// let str = ["Ivan", "Mykola", "Stepan"];
+
+// let result = str.join("-");
+
+// console.log(result);
+
+///////////////splice/////////////////
+
+// let str = ["Ivan", "Mykola", "Stepan"];
+
+// str.splice(1, 0, "Anna");
+
+// // console.log(res);
+// console.log(str);

@@ -13,8 +13,9 @@
 //   },
 // ];
 
-let srt = "Ivan,Mykola,Stepan";
+// let str = ["Ivan", "Mykola", "Stepan"];
 
-let result = srt.split(",");
+// str.splice(1, 0, "Anna");
 
-console.log(result);
+// // console.log(res);
+// console.log(str);
