@@ -1,3 +1,8 @@
+// ////////////splice delete item ///////////
+
+
+
+
 ///////slice copy el////////
 
 // let user = ["Ivan ", "Mykola", "Yana"];
