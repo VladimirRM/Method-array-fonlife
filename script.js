@@ -22,9 +22,8 @@
 let str = ["Ivan", "Mykola", "Stepan"];
 // let str = [1, 2, 3];
 
-
-
-
+str.splice(0, 1);
+console.log(str);
 
 // console.log(allRes);
 // console.log(str);
