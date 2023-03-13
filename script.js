@@ -1,8 +1,14 @@
+//////////splice delete item //////
+//////////splice get item deleted////////
+//////////slice copy elem from position////
+//////////indexOf find  item from position return -1///////
+//////////includes find  item from position return boolean///////
+//////////method find  item in obj contains field ///////
+//////////filter get elem by condition /////////////
+
 // let num = [1, 2, 3, [2, 3], [4, 6]];
 
 // let res = num.flat(1).reduce((acc, item) => acc + item);
-
-// console.log(res);
 
 // let arr = [
 //   {
@@ -19,11 +25,12 @@
 //   },
 // ];
 
-let str = ["Ivan", "Mykola", "Stepan"];
-// let str = [1, 2, 3];
+let arr = ["Yana", "Anna", "Mihalka"];
 
-str.splice(0, 1);
-console.log(str);
+let res = arr.filter((item, i, arr) => {
+  return item !== "Yana";
+});
 
-// console.log(allRes);
-// console.log(str);
+console.log(res);
+
+// for( let i = 0; i< arr.length;i++){}

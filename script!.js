@@ -1,19 +1,31 @@
 // ////////////splice delete item ///////////
 
-
 // let str = ["Ivan", "Mykola", "Stepan"];
 // // let str = [1, 2, 3];
 
 // str.splice(0, 1);
 // console.log(str);
 
+///////// get deleted item   splice//////
 
+// let str = ["Ivan", "Mykola", "Stepan"];
+// let removed = str.splice(0,1);
+
+// console.log(remove);
+
+/////////adding new item in arr slice///////
+
+// let arr = ["Ivan", "Mykola", "Stepan"];
+
+// arr.splice(  plece 1,adding => 0, "Galina", "Vasylyna");
+
+// console.log(arr);
 
 ///////slice copy el////////
 
 // let user = ["Ivan ", "Mykola", "Yana"];
 
-// user.slice(1, 2);
+// user.slice( position  start =>1,position fin=> 2);
 // let result = user.slice(1, 2);
 
 // console.log(result);
@@ -26,7 +38,7 @@
 
 // console.log(allArr);
 
-//////////indexOf select item//////////////////
+//////////indexOf find  item from position r//////////////////
 
 // let arr = ["Ivan ", "Mykola", "Yana"];
 
@@ -79,9 +91,7 @@
 //   });
 //   console.log(result);
 
-
 ///////////split/////////////////
-
 
 // let srt = "Ivan,Mykola,Stepan";
 
@@ -90,7 +100,6 @@
 // console.log(result);
 
 //////////////join////////////////
-
 
 // let str = ["Ivan", "Mykola", "Stepan"];
 
@@ -106,3 +115,19 @@
 
 // // console.log(res);
 // console.log(str);
+
+
+
+
+
+
+
+
+
+
+
+
+// let a = "комусь з кінця зайти";
+// let b = "комусь з заднього входу";
+// console.log(a > b);
+// console.log(a < b);
