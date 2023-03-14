@@ -27,9 +27,9 @@
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.filter((item, i, arr) => {
-  return item !== "Yana";
-});
+
+
+let res = arr.splice(0, 1);
 
 console.log(res);
 
