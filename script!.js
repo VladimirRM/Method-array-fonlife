@@ -13,7 +13,7 @@
 
 // console.log(remove);
 
-/////////adding new item in arr slice///////
+/////////adding new item in arr splice///////
 
 // let arr = ["Ivan", "Mykola", "Stepan"];
 

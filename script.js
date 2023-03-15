@@ -27,10 +27,8 @@
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
+arr.splice(2, 1, "ivan");
 
-
-let res = arr.splice(0, 1);
-
-console.log(res);
+console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
