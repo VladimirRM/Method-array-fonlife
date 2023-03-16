@@ -24,11 +24,10 @@
 //     age: 21,
 //   },
 // ];
-
+// let arr = "ivan,stepan,petro";
 let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(2, 1, "ivan");
-
+arr.splice(1, 1);
 console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
