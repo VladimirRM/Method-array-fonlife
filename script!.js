@@ -17,7 +17,7 @@
 
 // let arr = ["Ivan", "Mykola", "Stepan"];
 
-// arr.splice(  plece 1,adding => 0, "Galina", "Vasylyna");
+// arr.splice(  place 1,adding => 0, "Galina", "Vasylyna");
 
 // console.log(arr);
 
