@@ -1,7 +1,8 @@
 //////////splice delete item //////
 //////////splice get item deleted////////
+//////////splice add elem from position///////
 //////////slice copy elem from position////
-//////////indexOf find  item from position return -1///////
+//////////indexOf find  item from position (return -1)///////
 //////////includes find  item from position return boolean///////
 //////////method find  item in obj contains field ///////
 //////////filter get elem by condition /////////////
@@ -28,6 +29,8 @@
 let arr = ["Yana", "Anna", "Mihalka"];
 
 let res = arr.splice(1, 1);
-console.log(res);
+
+console.log(arr);
+// console.log(res);
 
 // for( let i = 0; i< arr.length;i++){}
