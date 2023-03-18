@@ -28,7 +28,9 @@ let arr1 = [
 // let arr = "ivan,stepan,petro";
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.includes("1");
+let res = arr1.find((item) => {
+  return item.name === "Ivan";
+});
 console.log(res);
 
 // console.log(res);
