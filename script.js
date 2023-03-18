@@ -28,8 +28,8 @@ let arr1 = [
 // let arr = "ivan,stepan,petro";
 let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(0, 0, "Ivan");
-console.log(arr);
+let res = arr.indexOf("Anna");
+console.log(res);
 
 // console.log(res);
 
