@@ -28,7 +28,7 @@ let arr1 = [
 // let arr = "ivan,stepan,petro";
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.indexOf("Anna");
+let res = arr.includes("1");
 console.log(res);
 
 // console.log(res);
