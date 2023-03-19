@@ -26,10 +26,12 @@ let arr1 = [
   },
 ];
 // let arr = "ivan,stepan,petro";
-let arr = ["Yana", "Anna", "Mihalka"];
+// let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.splice(0, 2);
-console.log(arr);
+let res = arr1.find((item) => {
+  return item.age === 22;
+});
+console.log(res);
 
 // console.log(res);
 
