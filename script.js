@@ -26,11 +26,10 @@ let arr1 = [
   },
 ];
 // let arr = "ivan,stepan,petro";
-// let arr = ["Yana", "Anna", "Mihalka"];
+let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr1.find((item) => {
-  return item.age === 22;
-});
+let res = arr.includes("Anna");
+
 console.log(res);
 
 // console.log(res);
