@@ -28,10 +28,8 @@ let arr1 = [
 // let arr = "ivan,stepan,petro";
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr1.find((item) => {
-  return item.name === "Ivan";
-});
-console.log(res);
+let res = arr.splice(0, 2);
+console.log(arr);
 
 // console.log(res);
 
