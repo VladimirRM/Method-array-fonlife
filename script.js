@@ -26,9 +26,11 @@ let arr1 = [
   },
 ];
 // let arr = "ivan,stepan,petro";
+
+let res = [];
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.includes("Anna");
+res = arr.slice(0, 1);
 
 console.log(res);
 
