@@ -27,12 +27,11 @@ let arr1 = [
 ];
 // let arr = "ivan,stepan,petro";
 
-let res = [];
 let arr = ["Yana", "Anna", "Mihalka"];
 
-res = arr.slice(0, 1);
+arr.splice(1, 0, "Ivan");
 
-console.log(res);
+console.log(arr);
 
 // console.log(res);
 
