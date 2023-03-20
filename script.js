@@ -29,9 +29,9 @@ let arr1 = [
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-res = arr.splice(0, 1);
+ arr.splice(0, 0, "Ivan");
 
-console.log(res);
+console.log(arr);
 
 // console.log(res);
 
