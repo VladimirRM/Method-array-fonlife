@@ -11,7 +11,7 @@
 
 // let res = num.flat(1).reduce((acc, item) => acc + item);
 
-let arr1 = [
+let arr = [
   {
     name: "Yana",
     age: 23,
@@ -27,9 +27,11 @@ let arr1 = [
 ];
 // let arr = "ivan,stepan,petro";
 
-let arr = ["Yana", "Anna", "Mihalka"];
+// let arr = ["Yana", "Anna", "Mihalka"];
 
-res = arr.includes('Anna');
+res = arr.find((item) => {
+  return item.age === 21;
+});
 console.log(res);
 
 // console.log(res);
