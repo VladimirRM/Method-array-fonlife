@@ -29,7 +29,7 @@ let arr1 = [
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-res = arr.splice(0, 3);
+res = arr.indexOf('Anna');
 console.log(res);
 
 // console.log(res);
