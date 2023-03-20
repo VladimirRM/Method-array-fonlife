@@ -29,8 +29,8 @@ let arr = [
 
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-res = arr.find((item) => {
-  return item.age === 21;
+res = arr.filter((item) => {
+  return item.age <= 21;
 });
 console.log(res);
 
