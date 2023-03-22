@@ -25,11 +25,13 @@
 //     age: 21,
 //   },
 // ];
-// let arr = "ivan,stepan,petro";
+let arr = "ivan,stepan,petro";
 
-let arr = ["Yana", "Anna", "Mihalka"];
+// let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(0, 0, "Ivan");
+arr.forEach((item, i, arr) => {
+  arr[i].split(" ").item[i].slice(1);
+});
 
 console.log(arr);
 
