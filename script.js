@@ -25,14 +25,11 @@
 //     age: 21,
 //   },
 // ];
-let arr = "ivan,stepan,petro";
+// let arr = "ivan,stepan,petro";
 
-// let arr = ["Yana", "Anna", "Mihalka"];
+let arr = ["Yana", "Anna", "Mihalka"];
+res = arr.slice(0, 2);
 
-arr.forEach((item, i, arr) => {
-  arr[i].split(" ").item[i].slice(1);
-});
-
-console.log(arr);
+console.log(res);
 
 // for( let i = 0; i< arr.length;i++){}
