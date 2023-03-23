@@ -29,8 +29,8 @@
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(0, 0, "Ivan");
+let res = arr.slice(0, 2);
 
-console.log(arr);
+console.log(res);
 
 // for( let i = 0; i< arr.length;i++){}
