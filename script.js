@@ -29,7 +29,9 @@ let arr = [
 
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-
+let res = arr.filter((item) => {
+  return item.age <= 21;
+});
 
 console.log(res);
 
