@@ -30,7 +30,7 @@ let arr = [
 // let arr = ["Yana", "Anna", "Mihalka"];
 
 let res = arr.find((item) => {
-  return item.name === "Ivan";
+  return item.age === 21;
 });
 
 console.log(res);
