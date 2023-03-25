@@ -6,6 +6,8 @@
 //////////includes find  item from position return boolean///////
 //////////method find  item in obj contains field ///////
 //////////filter get elem by condition /////////////
+//////////split  string for arr///////////
+//////////join arr////////////////////////
 
 // let num = [1, 2, 3, [2, 3], [4, 6]];
 
@@ -29,8 +31,8 @@ let arr = [
 
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.find((item) => {
-  return item.age === 21;
+let res = arr.filter((item) => {
+  return item.age >= 22;
 });
 
 console.log(res);
