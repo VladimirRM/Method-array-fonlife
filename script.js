@@ -13,27 +13,25 @@
 
 // let res = num.flat(1).reduce((acc, item) => acc + item);
 
-let arr = [
-  {
-    name: "Yana",
-    age: 23,
-  },
-  {
-    name: "Ivan",
-    age: 22,
-  },
-  {
-    name: "Peter",
-    age: 21,
-  },
-];
-// let arr = "ivan,stepan,petro";
+// let arr = [
+//   {
+//     name: "Yana",
+//     age: 23,
+//   },
+//   {
+//     name: "Ivan",
+//     age: 22,
+//   },
+//   {
+//     name: "Peter",
+//     age: 21,
+//   },
+// ];
+let arr = "ivan,stepan,petro";
 
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.filter((item) => {
-  return item.age >= 22;
-});
+let res = arr.split(" - ").join("");
 
 console.log(res);
 
