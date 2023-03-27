@@ -31,7 +31,7 @@
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.splice(0, 1);
+arr.splice(0, 0, "Ivan");
 
 console.log(arr);
 console.log(res);
