@@ -31,7 +31,7 @@
 
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.indexOf("Yana");
+let res = arr.includes("Yana");
 console.log(res);
 
 // for( let i = 0; i< arr.length;i++){}
