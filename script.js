@@ -29,11 +29,11 @@
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(0, 0, "ivan");
+let res = arr.indexOf("Yana");
 // };
 
 // let arr = "ivan, stepan, petro";
 
-console.log(arr);
+console.log(res);
 
 // for( let i = 0; i< arr.length;i++){}
