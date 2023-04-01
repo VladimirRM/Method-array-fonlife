@@ -29,10 +29,11 @@
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
 
+arr.splice(0, 2);
+// };
+
 // let arr = "ivan,stepan,petro";
 
-let res = arr.join("").split(" ,");
-
-console.log(res);
+console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
