@@ -29,7 +29,7 @@
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.indexOf("Yana");
+let res = arr.includes("Yana");
 
 console.log(res);
 
