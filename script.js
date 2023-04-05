@@ -29,10 +29,7 @@ let arr = [
 ];
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.find((item) => {
-  return item.age === 21;
-});
-
-console.log(res);
+arr.splice(0, 1);
+console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
