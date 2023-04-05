@@ -29,7 +29,7 @@ let arr = [
 ];
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.splice(0, 1);
-console.log(res);
+arr.splice(0, 0, "Ivan");
+console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
