@@ -29,7 +29,20 @@ let arr = [
 ];
 // let arr = ["Yana", "Anna", "Mihalka"];
 
-arr.splice(0, 0, "Ivan");
-console.log(arr);
+// arr.splice(0, 0, "Ivan");
+// console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
+
+let user = {
+  name: "Ivan",
+  getName() {
+    console.log(this.name);
+  },
+};
+
+user.getName();
+
+
+
+for (let i = 0; i < arr.length; i++) {}
