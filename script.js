@@ -34,7 +34,7 @@ let arr = ["Yana", "Anna", "Mihalka"];
 
 // for( let i = 0; i< arr.length;i++){}
 
-arr.splice(1, 1, "Ivan");
-console.log(arr);
+let res = arr.slice(0, 2);
+console.log(res);
 
 for (let i = 0; i < arr.length; i++) {}
