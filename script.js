@@ -13,28 +13,26 @@
 
 // let res = num.flat(1).reduce((acc, item) => acc + item);
 
-// let arr = [
-//   {
-//     name: "Yana",
-//     age: 23,
-//   },
-//   {
-//     name: "Ivan",
-//     age: 22,
-//   },
-//   {
-//     name: "Peter",
-//     age: 21,
-//   },
-// ];
-let arr = ["Yana", "Anna", "Mihalka"];
+let arr = [
+  {
+    name: "Yana",
+    age: 23,
+  },
+  {
+    name: "Ivan",
+    age: 22,
+  },
+  {
+    name: "Peter",
+    age: 21,
+  },
+];
+// let arr = ["Yana", "Anna", "Mihalka"];
 
-// arr.splice(0, 0, "Ivan");
-// console.log(arr);
+let res = arr.find((item) => {
+  return item.name === "Yana";
+});
 
-// for( let i = 0; i< arr.length;i++){}
-
-let res = arr.includes("Yana");
 console.log(res);
 
-for (let i = 0; i < arr.length; i++) {}
+// for (let i = 0; i < arr.length; i++) {}
