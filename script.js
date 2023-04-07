@@ -13,36 +13,28 @@
 
 // let res = num.flat(1).reduce((acc, item) => acc + item);
 
-let arr = [
-  {
-    name: "Yana",
-    age: 23,
-  },
-  {
-    name: "Ivan",
-    age: 22,
-  },
-  {
-    name: "Peter",
-    age: 21,
-  },
-];
-// let arr = ["Yana", "Anna", "Mihalka"];
+// let arr = [
+//   {
+//     name: "Yana",
+//     age: 23,
+//   },
+//   {
+//     name: "Ivan",
+//     age: 22,
+//   },
+//   {
+//     name: "Peter",
+//     age: 21,
+//   },
+// ];
+let arr = ["Yana", "Anna", "Mihalka"];
 
 // arr.splice(0, 0, "Ivan");
 // console.log(arr);
 
 // for( let i = 0; i< arr.length;i++){}
 
-let user = {
-  name: "Ivan",
-  getName() {
-    console.log(this.name);
-  },
-};
-
-user.getName();
-
-
+arr.splice(1, 1);
+console.log(arr);
 
 for (let i = 0; i < arr.length; i++) {}
