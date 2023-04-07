@@ -34,7 +34,7 @@ let arr = ["Yana", "Anna", "Mihalka"];
 
 // for( let i = 0; i< arr.length;i++){}
 
-let res = arr.slice(0, 2);
+let res = arr.indexOf("Yana");
 console.log(res);
 
 for (let i = 0; i < arr.length; i++) {}
