@@ -29,7 +29,7 @@
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.slice(0, 2);
+let res = arr.indexOf("Yana");
 
 console.log(res);
 
