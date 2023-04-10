@@ -28,8 +28,9 @@
 //   },
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
+let arr2 = ["Yana", "Anna", "Mihalka"];
 
-let res = arr.includes("Yana");
+let res = arr.join("_");
 
 console.log(res);
 
