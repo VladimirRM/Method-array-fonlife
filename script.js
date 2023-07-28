@@ -28,9 +28,9 @@
 //   },
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
- let res  = arr.splice(0,1)
 
-console.log(res)
+ arr.splice(3,0 ,'ivana')
+console.log(arr)
 
 arr.split("");
 
