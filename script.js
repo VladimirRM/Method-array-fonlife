@@ -29,7 +29,7 @@
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
 
- arr.splice(3,0 ,'ivana')
+
 console.log(arr)
 
 arr.split("");
