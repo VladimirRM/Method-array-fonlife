@@ -28,12 +28,12 @@
 //   },
 // ];
 let arr = ["Yana", "Anna", "Mihalka"];
+ let remove = arr.splice(0,1)
+
+console.log(remove)
 
 
-console.log(arr)
 
-arr.split("");
 
-console.log(arr);
 
 // for (let i = 0; i < arr.length; i++) {}
